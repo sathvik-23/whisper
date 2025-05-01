@@ -18,4 +18,5 @@ This project uses [OpenAI Whisper](https://github.com/openai/whisper) to transcr
 ### 1. Clone and navigate
 
 ```bash
-https://github.com/sathvik-23/whisper```
+https://github.com/sathvik-23/whisper
+```
