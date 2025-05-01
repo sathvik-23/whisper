@@ -1,12 +1,22 @@
-# Whisper Transcription Project
+# 🎙️ Whisper Transcription Analysis
 
-This project uses [OpenAI's Whisper](https://github.com/openai/whisper), a general-purpose speech recognition model, to transcribe audio files.
+This project uses [OpenAI Whisper](https://github.com/openai/whisper) to transcribe audio files and evaluate the accuracy of different transcription outputs. The main goal is to analyze how Whisper handles subtle variations in pronunciation, clarity, and accent.
+
+---
+
+## 📌 Project Purpose
+
+- Transcribe a given `.wav` audio file (`harvard.wav`) using the `small` Whisper model.
+- Compare transcription output with expected/reference text.
+- Identify minor and major differences in phrases or words (e.g., "Tacos al pastor" vs "Tuckles all pastora").
+- Understand Whisper's behavior in edge cases and soft errors (homophones, regional terms, mispronunciations).
+
+---
 
 ## 🔧 Setup Instructions
 
-### 1. Clone this repository (if not already)
+### 1. Clone and navigate
 
 ```bash
-git clone https://github.com/openai/whisper.git
-cd whisper
+cd /Users/sathvik/Project/Whisper
 ```
