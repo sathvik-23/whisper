@@ -1,0 +1,18 @@
+# Core whisper from GitHub
+git+https://github.com/openai/whisper.git
+
+# Audio and video handling
+ffmpeg-python>=0.2.0
+
+# Optional: Improve tokenizer compatibility
+tiktoken>=0.6.0
+
+# Optional: For numerical processing and audio ops
+numpy>=1.21.0
+torch>=1.10.0  # Or the version compatible with your system & GPU
+
+# Optional: Jupyter support (if you're using notebooks)
+jupyter
+
+# source .venv/bin/activate
+# pip install -r requirements.txt

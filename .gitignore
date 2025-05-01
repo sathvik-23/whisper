@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# MacOS metadata
+.DS_Store
+
+# Python package metadata
+*.egg-info/
+dist/
+build/
+
+# Logs and cache
+*.log
+.cache/
+*.sqlite3
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Pip download cache
+pip-wheel-metadata/
+*.whl
+
+# PyInstaller
+*.spec
+
+# Local environment overrides
+.env
+.env.*
+
+# MyPy
+.mypy_cache/
+
+# pyproject tools
+poetry.lock
